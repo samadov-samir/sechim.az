@@ -1,0 +1,516 @@
+@font-face {
+    font-family: Seapro;
+    src: url(font/SeroPro-Bold.ttf);
+}
+@font-face {
+    font-family: Sealight;
+    src: url(font/SeroPro-Light.ttf);
+}
+/*reset css*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Sealight;
+}
+.d-flex{
+    display: flex;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+}
+/*header css start*/
+header{
+    background-color: #333333;
+}
+.head .left-item{
+    width: 70%;
+    padding: 25px;
+}
+.head .right-item{
+    width: 30%;
+    padding: 30px;
+}
+.head .right-item a{
+    text-decoration: none;
+    color: white;
+    font-size: 26px;
+}
+.head .right-item .sosial{
+    margin-left: 50px;
+}
+.head .right-item .sosial a{
+    border: 1px solid white;
+    border-radius: 100%;
+    padding: 13px;
+    font-size: 23px;
+    margin-right: 4px;
+}
+.head .right-item .sosial a:hover{
+    background-color: white;
+    color: black;
+    transition: 0.7s;
+}
+/*header css finish*/
+/*main css start*/
+main .content1{
+    padding-top: 50px;
+}
+main .content1 p{
+    font-family: Sealight;
+    font-weight: 500;
+    font-size: 27px;
+    text-align: center;
+}
+.pro{
+    font-family: Seapro;
+    font-weight: 700;
+    font-size: 27px;
+    text-align: center;
+    display: inline-block;
+}
+main .content1 .text1{
+    padding-top: 35px;
+    padding-bottom: 40px;
+}
+.bg2{
+    background-image: url(img/bg_2.png);
+    background-size: cover;
+    background-position: center center;
+    height: 35vh;
+}
+.bg2 p{
+    padding-top: 74px;
+    text-align: center;
+    font-family: Sealight;
+    font-size: 22px;
+    font-weight: 500;
+}
+.bg2 .pro1{
+    font-family: Seapro;
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+    display: inline-block;
+}
+.bg2 .button{
+    padding-top: 60px;
+    text-align: center;
+}
+.bg2 a{
+    font-family: Seapro;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 20px;
+    border: none;
+    background-color: #57b952;
+    color: white;
+}
+.bg2 a:hover{
+    transition: 0.8s;
+    background-color: #3D933C;
+}
+.box{
+    width: 100%;
+}
+.box .box1{
+    margin-top: 17px;
+    width: 25%;
+    padding: 60px;
+    text-align: center;
+}
+.box .box1 img{
+    display: block;
+    margin: auto;
+}
+.box .box1 h1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: Seapro;
+    font-weight: 700;
+    font-size: 22px;
+    color: #333333;
+}
+.box .box1 p{
+    font-family: Sealight;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+}
+.step{
+    width: 100%;
+}
+.step .step1{
+    width: 33.333%;
+    background-image: url(img/bg_icon_1.png);
+    background-size: cover;
+    background-position: center center;
+    height: 56vh;
+}
+.step .step1:hover{
+    background: #FFCC29;
+    transition: 0.7s;
+}
+.step .step1:hover .step1-text{
+    border: 3px solid black;
+    color: black;
+}
+.step .step1:hover .step-text{
+    color: black;
+}
+.step .step2{
+    width: 33.333%;
+    background-image: url(img/bg_icon_2.png);
+    background-size: cover;
+    background-position: center center;
+    height: 56vh;
+}
+.step .step2:hover{
+    background: #FFCC29;
+    transition: 0.7s;
+}
+.step .step2:hover .step1-text{
+    border: 3px solid black;
+    color: black;
+}
+.step .step2:hover .step-text{
+    color: black;
+}
+.step .step3{
+    width: 33.333%;
+    background-image: url(img/bg_icon_3.png);
+    background-size: cover;
+    background-position: center center;
+    height: 56vh;
+}
+.step .step3:hover{
+    background: #FFCC29;
+    transition: 0.7s;
+}
+.step .step3:hover .step1-text{
+    border: 3px solid black;
+    color: black;
+}
+.step .step3:hover .step-text{
+    color: black;
+}
+.step .step1-text{
+    margin: auto;
+    color: white;
+    border: 3px solid white;
+    border-radius: 100%;
+    padding: 17px;
+    width: 145px;
+    height: 135px;
+    margin-top: 99px;
+}
+.step .pro2{
+    font-size: 33px;
+    font-weight: 700;
+    font-family: Seapro;
+    text-align: center;
+    display: inline-block;
+    padding-left: 30px;
+}
+.step .stepp{
+    font-weight: 400;
+    font-size: 33px;
+}
+.step .step-text{
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    padding-top: 30px;
+}
+.faq{
+    background-color: #F2F2F2;
+    padding-bottom: 50px;
+}
+.faq h2{
+    font-size: 27px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 105px;
+    padding-bottom: 25px;
+}
+.faq .faq1{
+    background: #FFFFFF;
+    width: 85%;
+    margin: 45px auto;
+    border-radius: 15px;
+}
+.faq .faq1 .faq-title{
+    font-weight: 500;
+    font-size: 28px;
+    padding-top: 55px;
+    padding-left: 155px;
+    padding-right: 155px;
+}
+.faq .faq-pro{
+    font-family: Seapro;
+    font-weight: 700;
+    font-size: 28px;
+}
+.faq .faq-subtitle{
+    font-weight: 400;
+    font-size: 18px;
+    padding-top: 35px;
+    padding-left: 155px;
+    line-height: 31px;
+    padding-bottom: 35px;
+    padding-right: 155px;
+}
+.faq .numbers{
+    padding-left: 180px;
+    padding-bottom: 45px;
+}
+.faq .number{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+    border-radius: 16px;
+    background-color: #FFCC29;
+    text-align: center;
+    padding:5px;
+    color: white;
+    margin-bottom: 15px;
+}
+.partner .center{
+    text-align: center;
+}
+.partner h3{
+    margin: 45px 0;
+    font-weight: 500;
+    font-size: 22px;
+}
+.partner .partners{
+    margin: 1%;
+    margin-bottom: 20px;
+    height: 130px;
+    border: 1px dotted #ddd;
+    display: inline-block;
+    padding: 7px 25px;
+    border-radius: 20px;
+}
+.partner .partners img{
+    width: 150px;
+}
+.complaint{
+    font-weight: 400;
+    font-size: 18px;
+    background-color: #FFCC29;
+    padding-bottom: 10px;
+}
+.complaint h3{
+    text-align: center;
+    font-size: 27px;
+    font-weight: 500;
+    padding-top: 55px;
+    padding-bottom: 35px;
+    color: #333333;
+}
+.complaint p{
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 31px;
+}
+.complaint .feedbacks{
+    padding: 66px 95px;
+    background-color: #FFFFFF;
+    width: 85%;
+    margin: 25px auto;
+    border-radius: 25px;
+}
+.complaint .feedbacks input{
+    width: 100%;
+    margin: auto;
+    border-radius: 18px;
+    padding: 10px 70px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+}
+.complaint .num-select{
+    border: 1px solid #ddd;
+    border-radius: 23px;
+    width: 105px;
+    padding: 9px;
+    padding-top: 11px;
+    margin-bottom: 28px;
+    margin-top: -6px;
+    border-right-style: none;
+}
+.complaint textarea{
+    width: 100%;
+    border-radius: 22px;
+    padding: 21px;
+    border: 1px solid #ddd;
+}
+.complaint .btn{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Seropro';
+    border-radius: 6px;
+    background: #57b952;
+    border: none;
+    padding: 20px 30px;
+    color: white;
+}
+.complaint .center{
+    text-align: center;
+    margin-top: 40px;
+    font-weight: 400;
+
+}
+.complaint .btn:hover{
+    background: #308030;
+    transition: 0.9s;
+}
+/*main css finish*/
+/*footer css start*/
+footer{
+    background: #333333;
+}
+.footer-section .footer-text{
+    width: 33.3333%;
+    color: white;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 33px;
+    padding: 35px;
+    text-align: center;
+}
+.footer-section .footer-logo{
+    width: 33.3333%;
+    padding: 15px;
+}
+.footer-section .footer-logo img{
+    display: block;
+    margin: auto;
+}
+.footer-section .footer-social{
+    width: 33.3333%;
+}
+footer .sosial{
+    padding: 45px;
+}
+footer .sosial a{
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 100%;
+    padding: 13px;
+    font-size: 23px;
+    color: white;
+    margin-right: 4px;
+}
+footer .sosial a:hover{
+    background-color: white;
+    color: black;
+    transition: 0.7s;
+}
+/*footer css finish*/
+@media only screen and (max-width: 1140px) {
+    .container {
+        width: 900px;
+    }
+    .head .left-item {
+        width: 50%;
+    }
+    .head .right-item {
+        width: 50%;
+    }
+  }
+  @media only screen and (max-width: 1040px) {
+    .box{
+        display: block;
+    }
+    .box .box1{
+        width: 100%;
+        margin-top: -15px;
+        padding: 35px;
+    }
+  }
+  @media only screen and (max-width: 920px) {
+    .container {
+        width: 700px;
+    }
+    .head .left-item {
+        width: 50%;
+    }
+    .head .right-item {
+        width: 50%;
+    }
+  }
+  @media only screen and (max-width: 731px) {
+      .container{
+         width: 400px;
+      }
+      .head{
+          display: block;
+      }
+      .head .left-item{
+          display: block;
+          margin: auto;
+          width: 100%;
+      }
+      .head .left-item img{
+          display: block;
+          margin: auto;
+      }
+      .head .right-item{
+          width: 100%;
+      }
+      .bg2{
+          height: 40vh;
+      }
+    .step{
+        display: block;
+    }
+    .step .step1{
+        width: 100%;
+        padding: 60px;
+    }
+    .step .step2{
+        width: 100%;
+        padding: 60px;
+    }
+    .step .step3{
+        width: 100%;
+        padding: 60px;
+    }
+    .step .step1-text {
+        margin-top: 0;
+    }
+    .faq .faq1 .faq-title {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .faq .faq-subtitle {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .faq .numbers {
+        padding-left: 50px;
+    }
+    .footer-section{
+        display: block;
+    }
+    .footer-section .footer-text{
+        width: 100%;
+    }
+    .footer-section .footer-logo{
+        width: 100%;
+    }
+    .footer-section .footer-social{
+        width: 100%;
+        text-align: center;
+    }
+  }
